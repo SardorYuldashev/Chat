@@ -234,7 +234,7 @@ body {
     .title {
         font-size: 30px;
         padding-top: 10px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 
     .main__content {
@@ -244,6 +244,7 @@ body {
 
     .window1 {
         width: 90%;
+        height: 470px;
     }
 
     .main__inputs {
@@ -252,5 +253,9 @@ body {
 
     .item1, .item2 {
         justify-content: center;
-    }    
+    }
+    
+    .main__btn {
+        margin-top: 20px;
+    }
 }
