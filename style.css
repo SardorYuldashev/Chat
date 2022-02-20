@@ -234,10 +234,12 @@ body {
     .title {
         font-size: 30px;
         padding-top: 10px;
+        margin-bottom: 0;
     }
 
     .main__content {
-        height: 100vh;
+        height: fit-content;
+        justify-content: start;
     }
 
     .window1 {
@@ -250,5 +252,5 @@ body {
 
     .item1, .item2 {
         justify-content: center;
-    }
+    }    
 }

@@ -6,11 +6,11 @@ const window1 = document.querySelector('.window1');
 const userName1 = document.querySelector('.user__name1');
 const userName2 = document.querySelector('.user__name2');
 const btn = document.querySelector('.main__btn')
-// let user1 = prompt('Введите имя первого пользователя');
-// let user2 = prompt('Введите имя второго пользователя');
+let user1 = prompt('Введите имя первого пользователя');
+let user2 = prompt('Введите имя второго пользователя');
 
-let user1 = 'Sardor';
-let user2 = 'Sherzod';
+// let user1 = 'Sardor';
+// let user2 = 'Sherzod';
 
 
 if (user1) {
