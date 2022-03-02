@@ -49,6 +49,10 @@ form1.addEventListener('submit', (e) => {
         </div>
         `
         input1.value = ''
+        
+        const uM1 = document.querySelector('.user__message')
+
+        window1.scrollTop += (uM1.clientHeight + 10)
     }
 })
 
@@ -72,5 +76,9 @@ form2.addEventListener('submit', (e) => {
         </div>
         `
         input2.value = ''
+
+        const uM2 = document.querySelector('.user__message2')
+
+        window1.scrollTop += (uM2.clientHeight + 10)
     }
 })
